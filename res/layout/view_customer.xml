@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:background="@drawable/icnn">
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Customer"
+            android:id="@+id/button" android:layout_x="4dp" android:layout_y="120dp"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="View Customers"
+            android:id="@+id/button2" android:layout_x="-1dp" android:layout_y="219dp"/>
+</AbsoluteLayout>

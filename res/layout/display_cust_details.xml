@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="My Customer"
+                android:id="@+id/textView" />
+
+        <LinearLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_height="29dp"
+                android:layout_width="fill_parent"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <TextView
+                    android:id="@+id/FirstText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="First Name"
+                    android:layout_weight="1">
+            </TextView>
+
+            <TextView
+                    android:id="@+id/SecondText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cell number"
+                    android:layout_weight="2">
+            </TextView>
+
+        </LinearLayout>
+
+        <ListView
+                android:layout_width="match_parent"
+                android:layout_height="101dp"
+                android:id="@+id/listView"
+                android:layout_weight="0.76" />
+    <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.18">
+
+            <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="89dp"
+                        android:layout_height="35dp"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/editText"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_column="2"
+                        android:background="#ffe1d8ff"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="89dp"
+                        android:layout_height="35dp"
+                        android:id="@+id/editText2"
+                        android:layout_column="2"
+                        android:background="#ffe1d8ff"/>
+
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="89dp"
+                        android:layout_height="35dp"
+                        android:inputType="textEmailAddress"
+                        android:ems="10"
+                        android:id="@+id/editText3"
+                        android:layout_column="2"
+                        android:background="#ffe1d8ff"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:inputType="phone"
+                        android:ems="10"
+                        android:id="@+id/editText4"
+                        android:layout_column="2"
+                        android:background="#ffe1d8ff"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <TextView
+                        android:layout_width="89dp"
+                        android:layout_height="35dp"
+                        android:inputType="textPostalAddress"
+                        android:ems="10"
+                        android:id="@+id/editText5"
+                        android:layout_column="2"
+                        android:background="#ffe1d8ff"/>
+
+            </TableRow>
+        </TableLayout>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit App"
+            android:id="@+id/button2" android:layout_gravity="right"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More Details"
+            android:id="@+id/button" android:layout_column="4"/>
+</LinearLayout>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+    <TextView
+            android:layout_width="258dp"
+            android:layout_height="44dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="REGISTRATION FORM"
+            android:id="@+id/textView2"
+            android:layout_x="1dp"
+            android:layout_y="1dp"
+          />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/textView"
+            android:layout_x="-3dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_y="60dp" android:background="#ffffffff" android:textColor="#ff4364ff"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView3" android:layout_x="0dp" android:layout_y="112dp" android:background="#ffffffff"
+            android:textColor="#ff3c4eff"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView4" android:layout_x="1dp" android:layout_y="164dp"
+            android:background="#ffffffff"
+            android:textColor="#ff4364ff"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView5" android:layout_x="-1dp" android:layout_y="216dp"
+            android:background="#ffffffff"
+            android:textColor="#ff4364ff"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView6" android:layout_x="0dp" android:layout_y="273dp"
+            android:background="#ffffffff"
+            android:textColor="#ff4364ff"/>
+    <Button
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/button"
+            android:layout_x="0dp"
+            android:layout_y="336dp"
+            android:textColor="#ff4364ff"/>
+    <Button android:layout_width="144dp" android:layout_height="wrap_content" android:text="Home Screen"
+            android:id="@+id/button2" android:layout_x="165dp" android:layout_y="335dp" android:textColor="#ff4364ff"/>
+
+</AbsoluteLayout>

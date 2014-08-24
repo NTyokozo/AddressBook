@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <AbsoluteLayout android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+            >
+
+
+    <EditText
+            android:layout_width="286dp"
+            android:layout_height="36dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText" android:layout_x="9dp"
+            android:layout_y="64dp"
+            android:background="#ffffffff"
+            android:textColor="#ff3c4eff"/>
+    <EditText
+            android:layout_width="286dp"
+            android:layout_height="36dp"
+            android:ems="10"
+            android:id="@+id/editText2" android:layout_x="9dp" android:layout_y="138dp"
+            android:background="#ffffffff" android:singleLine="false"
+            android:textColor="#ff3c4eff"/>
+    <EditText
+            android:layout_width="286dp"
+            android:layout_height="36dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editText3" android:layout_x="9dp" android:layout_y="204dp"
+            android:background="#ffffffff"
+            android:textColor="#ff3c4eff"/>
+    <EditText
+            android:layout_width="286dp"
+            android:layout_height="36dp"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:id="@+id/editText4" android:layout_x="9dp" android:layout_y="277dp"
+            android:background="#ffffffff"
+            android:textColor="#ff3c4eff"/>
+    <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_x="78dp"
+            android:layout_y="40dp"
+            android:text="First Name"
+            />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name "
+            android:id="@+id/textView2"
+            android:layout_x="85dp"
+            android:layout_y="104dp"/>
+
+    <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+              android:id="@+id/textView3"
+              android:layout_x="85dp"
+              android:layout_y="182dp"/>
+
+    <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Physical Address"
+            android:id="@+id/textView4"
+            android:layout_x="81dp"
+            android:layout_y="258dp"/>
+    <Button
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/button"
+            android:layout_x="68dp"
+            android:layout_y="408dp"/>
+    <TextView android:layout_width="120dp"
+              android:layout_height="wrap_content"
+              android:text="Cell Number"
+              android:id="@+id/textView5"
+              android:layout_x="77dp"
+              android:layout_y="317dp"/>
+    <EditText android:layout_width="286dp"
+              android:layout_height="36dp"
+              android:inputType="textPostalAddress"
+              android:ems="10"
+              android:id="@+id/editText5"
+              android:layout_x="8dp"
+              android:layout_y="338dp"
+              android:background="#ffffffff"
+              android:textColor="#ff3c4eff"/>
+</AbsoluteLayout>
+    </ScrollView>
